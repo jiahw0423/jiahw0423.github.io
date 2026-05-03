@@ -433,9 +433,9 @@
         <p data-en="Welcome to my personal website!" data-zh="欢迎来到我的个人网站！">Welcome to my personal website!</p>
         <p data-en="I am Haowen Jia, a fourth-year undergraduate student in the School of Physics and Astronomy at Sun Yat-sen University, majoring in Physics."
            data-zh="我是贾昊炆，目前就读于中山大学物理与天文学院大四，专业为物理学。">I am Haowen Jia, a fourth-year undergraduate student in the School of Physics and Astronomy at Sun Yat-sen University, majoring in Physics.</p>
-        <p id="bio-advisors">I am currently working with <a href="https://coe.northeastern.edu/people/liao-maijia/" target="_blank" rel="noopener">Prof. Maijia Liao</a> at Northeastern University. Previously, I worked as a research assistant under <a href="https://sibet.cas.cn/sourcedb/zw/yjdw/gjzdrcgc/202402/t20240226_6995337.html" target="_blank" rel="noopener">Prof. Jie Zhuang</a> at the Suzhou Institute of Biomedical Engineering and Technology, Chinese Academy of Sciences. At Sun Yat-sen University, I am advised by <a href="https://spa.sysu.edu.cn/zh-hans/teacher/149" target="_blank" rel="noopener">Prof. Shuangqiang Liu</a> and <a href="https://spa.sysu.edu.cn/zh-hans/teacher/182" target="_blank" rel="noopener">Prof. Zhu Li</a>.</p>
-        <p data-en="My research interests lie at the interface of physics and biology. I am particularly interested in understanding how physical principles govern neuronal structures and dynamics, with a current focus on microtubule stability and geometric confinement effects using FRAP-based quantitative approaches."
-           data-zh="我的研究兴趣在于物理与生物学的交叉领域，尤其关注物理原理如何决定神经元的结构与动态行为。目前的研究聚焦于利用荧光漂白恢复（FRAP）技术，结合反应-扩散模型，定量研究微管稳定性及几何限域效应。">My research interests lie at the interface of physics and biology. I am particularly interested in understanding how physical principles govern neuronal structures and dynamics, with a current focus on microtubule stability and geometric confinement effects using FRAP-based quantitative approaches.</p>
+
+        <p data-en="My research interests lie at the interface of physics and biology — an area broadly known as Quantitative Biology or Physics of Living Matter — which is about using physics and quantitative methods to study basic biological systems."
+           data-zh="我的研究兴趣在于物理与生物学的交叉领域，即定量生物学（Quantitative Biology）或活物质物理学（Physics of Living Matter）——通过物理学方法与定量手段来研究基本生物系统。">My research interests lie at the interface of physics and biology — an area broadly known as Quantitative Biology or Physics of Living Matter — which is about using physics and quantitative methods to study basic biological systems.</p>
         <p data-en="Outside of research, I enjoy playing the saxophone and Chinese bamboo flute, playing basketball and football, and capturing moments through photography."
            data-zh="科研之余，我喜欢吹萨克斯和竹笛、打篮球和足球，以及用镜头记录生活。">Outside of research, I enjoy playing the saxophone and Chinese bamboo flute, playing basketball and football, and capturing moments through photography.</p>
       </section>
@@ -447,16 +447,7 @@
         <h2 class="about-heading" data-en="Education" data-zh="教育经历">Education</h2>
         <div class="edu-list">
 
-          <div class="edu-item">
-            <img src="sibet.png" alt="SIBET" class="edu-logo">
-            <div>
-              <div class="edu-school" data-en="Suzhou Institute of Biomedical Engineering and Technology, Chinese Academy of Sciences" data-zh="中国科学院苏州生物医学工程技术研究所">Suzhou Institute of Biomedical Engineering and Technology, Chinese Academy of Sciences</div>
-              <div class="edu-degree" data-en="Research Assistant" data-zh="研究助理">Research Assistant</div>
-              <div class="edu-meta" data-en="Jun 2025 – Sep 2025" data-zh="2025年6月 – 2025年9月">Jun 2025 – Sep 2025</div>
-            </div>
-          </div>
-
-          <div class="edu-item">
+<div class="edu-item">
             <img src="sysu.png" alt="SYSU" class="edu-logo">
             <div>
               <div class="edu-school" data-en="Sun Yat-sen University" data-zh="中山大学">Sun Yat-sen University</div>
@@ -475,11 +466,7 @@
         <h2 class="about-heading" data-en="Honors &amp; Awards" data-zh="荣誉与奖励">Honors &amp; Awards</h2>
         <table class="awards-table">
           <tbody>
-            <tr>
-              <td class="aw-year">2025</td>
-              <td class="aw-name" data-en="Special Scholarship for Disciplinary Competition, School of Physics and Astronomy, Sun Yat-sen University <span class='aw-pct'>(Top 3%)</span>" data-zh="中山大学物理与天文学院学科竞赛奖专项奖学金 <span class='aw-pct'>（前3%）</span>">Special Scholarship for Disciplinary Competition, School of Physics and Astronomy, Sun Yat-sen University <span class="aw-pct">(Top 3%)</span></td>
-            </tr>
-            <tr>
+<tr>
               <td class="aw-year">2025</td>
               <td class="aw-name" data-en="First Prize Scholarship, Sun Yat-sen University <span class='aw-pct'>(Top 5%)</span>" data-zh="中山大学优秀学生一等奖学金 <span class='aw-pct'>（前5%）</span>">First Prize Scholarship, Sun Yat-sen University <span class="aw-pct">(Top 5%)</span></td>
             </tr>
@@ -621,8 +608,8 @@
   let   currentLang = localStorage.getItem('lang') || 'en';
 
   const bioEl = document.getElementById('bio-advisors');
-  const bioEN = 'I am currently working with <a href="https://coe.northeastern.edu/people/liao-maijia/" target="_blank" rel="noopener">Prof. Maijia Liao</a> at Northeastern University. Previously, I worked as a research assistant under <a href="https://sibet.cas.cn/sourcedb/zw/yjdw/gjzdrcgc/202402/t20240226_6995337.html" target="_blank" rel="noopener">Prof. Jie Zhuang</a> at the Suzhou Institute of Biomedical Engineering and Technology, Chinese Academy of Sciences. At Sun Yat-sen University, I am advised by <a href="https://spa.sysu.edu.cn/zh-hans/teacher/149" target="_blank" rel="noopener">Prof. Shuangqiang Liu</a> and <a href="https://spa.sysu.edu.cn/zh-hans/teacher/182" target="_blank" rel="noopener">Prof. Zhu Li</a>.';
-  const bioZH = '目前，我在美国东北大学<a href="https://coe.northeastern.edu/people/liao-maijia/" target="_blank" rel="noopener">廖麦嘉教授</a>课题组参与科研工作。此前，我曾在中国科学院苏州生物医学工程技术研究所<a href="https://sibet.cas.cn/sourcedb/zw/yjdw/gjzdrcgc/202402/t20240226_6995337.html" target="_blank" rel="noopener">庄杰教授</a>指导下担任科研助理。在中山大学，我的本科研究由物理与天文学院<a href="https://spa.sysu.edu.cn/zh-hans/teacher/149" target="_blank" rel="noopener">刘双强副教授</a>和<a href="https://spa.sysu.edu.cn/zh-hans/teacher/182" target="_blank" rel="noopener">李祝教授</a>共同指导。';
+  const bioEN = '';
+  const bioZH = '';
 
   function applyLang(lang) {
     document.querySelectorAll('[data-en][data-zh]').forEach(el => {
@@ -642,7 +629,7 @@
 
   // ── Email (anti-scrape) ──
   const emailEl = document.getElementById('email-display');
-  if (emailEl) emailEl.textContent = 'jiahw' + '@' + 'mail2.sysu.edu.cn';
+  if (emailEl) emailEl.textContent = 'jiahw0423' + '@' + 'gmail.com';
 
   // ── Mobile: fix nav to top once sidebar scrolls out of view ──
   const navEl     = document.querySelector('.topnav');
